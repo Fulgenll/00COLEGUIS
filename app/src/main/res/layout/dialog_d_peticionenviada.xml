@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/border"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgpeticionllegadadialogd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d11"
+                android:layout_marginHorizontal="@dimen/d70"
+                android:layout_marginTop="@dimen/d30"
+                app:srcCompat="@drawable/animacion_dialog_enviada" />
+
+            <TextView
+                android:id="@+id/txtcomentariodialogd"
+                style="@style/txtcomentario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="USUARIO PUEDE SER TU COLEGUI"
+                android:textSize="@dimen/d65" />
+
+            <TextView
+                android:id="@+id/txtcomentariodescripdialogd"
+                style="@style/txtgenericos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/d11"
+                android:paddingHorizontal="@dimen/d18"
+                android:text="Puedes ver su perfil y contactar si quieres :)" />
+
+            <ImageButton
+                android:id="@+id/btnverperfildialogd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_ver" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

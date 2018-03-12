@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="AzulOscuroFondo">#1E293B</color>
+    <color name="AzulOscuroCabecera">#0A121E</color>
+    <color name="AzulTurquesaCabecera">#027572</color>
+    <color name="AzulClaroCabecera">#07C3D1</color>
+    <color name="Blanco">#ffffff</color>
+
+    <color name="RojoAvatar">#FF0000</color>
+    <color name="AmarilloAvatar">#FFFF00</color>
+    <color name="NaranjaAvatar">#F7931E</color>
+    <color name="VerdeMocaAvatar">#8CC63F</color>
+    <color name="VerdeHierbaAvatar">#39B54A</color>
+    <color name="AzulMarinoAvatar">#0071BC</color>
+    <color name="AzulTurquesaAvatar">#00FFFF</color>
+    <color name="MoradoAvatar">#662D91</color>
+    <color name="RosaAvatar">#FF00FF</color>
+    <color name="MarronAvatar">#8C6239</color>
+    <color name="GrisAvatar">#B3B3B3</color>
+    <color name="Transparencia">#00b3b3b3</color>
+
+
+</resources>

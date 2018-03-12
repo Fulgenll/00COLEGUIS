@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:font="@font/font_bosk" />
+    <font android:font="@font/font_avatar" />
+    <font android:font="@font/font_bebas_neue" />
+    <font android:font="@font/font_gustos_con" />
+    <font android:font="@font/font_gustos_sin" />
+
+</font-family>

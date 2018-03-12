@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@layout/border"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvavatarcolor"
+        style="@style/txtavatareselecimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d18"
+        android:text="A" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/d18">
+
+                <TextView
+                    android:id="@+id/tvavatarcolor01"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/AmarilloAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor02"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/RojoAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor03"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/NaranjaAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor04"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/MarronAvatar"
+                    android:text="?" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/d18">
+
+                <TextView
+                    android:id="@+id/tvavatarcolor05"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/VerdeMocaAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor06"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/VerdeHierbaAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor07"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/AzulTurquesaAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor08"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/AzulMarinoAvatar"
+                    android:text="?" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingHorizontal="@dimen/d18">
+
+                <TextView
+                    android:id="@+id/tvavatarcolor09"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/RosaAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor10"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/MoradoAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor11"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/GrisAvatar"
+                    android:text="?" />
+
+                <TextView
+                    android:id="@+id/tvavatarcolor12"
+                    style="@style/txtcolorimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/Blanco"
+                    android:text="?" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

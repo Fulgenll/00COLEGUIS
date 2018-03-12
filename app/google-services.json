@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1049562131813",
+    "firebase_url": "https://coleguis-2d2c7.firebaseio.com",
+    "project_id": "coleguis-2d2c7",
+    "storage_bucket": "coleguis-2d2c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049562131813:android:7af7d947eacee419",
+        "android_client_info": {
+          "package_name": "com.example.fulge.a00coleguis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049562131813-j1f225nntkkipcokqudtq2jlg3sj03b6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fulge.a00coleguis",
+            "certificate_hash": "61c99fe4be9e1ac00328d7c7c1c018a02c1a0533"
+          }
+        },
+        {
+          "client_id": "1049562131813-1rjrcv3f4m84cgiiv53tc1covkdejqh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd0veGyYMfEYSeWIqqac48h_poWhPeJaE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049562131813-1rjrcv3f4m84cgiiv53tc1covkdejqh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

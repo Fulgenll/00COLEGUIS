@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fondo"
+    android:orientation="vertical"
+    tools:context="com.example.fulge.a00coleguis.MA_B_03">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fondocabecera"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvcabeceraavatarb03"
+            style="@style/txteventocabecerasimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="b" />
+
+        <TextView
+            android:id="@+id/tvcabecerab03"
+            style="@style/txtcabecera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NOMBRE DEL EVENTO" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listusuariosb03"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

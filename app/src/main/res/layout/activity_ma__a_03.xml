@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fondo"
+    android:orientation="vertical"
+    tools:context="com.example.fulge.a00coleguis.MA_A_03">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/fondocabecera"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvcabeceraavatara03"
+            style="@style/txtcabeceraimag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/tvcabeceraa03"
+            style="@style/txtcabecera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TUS GUSTOS" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        android:onClick="clicksiguientea03"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/d11">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto25a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Y" />
+
+                    <TextView
+                        android:id="@+id/tvngusto25a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BAILAR" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto26a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Z" />
+
+                    <TextView
+                        android:id="@+id/tvngusto26a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SERIES" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto27a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="!" />
+
+                    <TextView
+                        android:id="@+id/tvngusto27a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CAMPING" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto22a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="V" />
+
+                    <TextView
+                        android:id="@+id/tvngusto22a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COCINA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto23a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="W" />
+
+                    <TextView
+                        android:id="@+id/tvngusto23a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COMER" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto24a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="X" />
+
+                    <TextView
+                        android:id="@+id/tvngusto24a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TEATRO" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto19a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="S" />
+
+                    <TextView
+                        android:id="@+id/tvngusto19a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NATURALEZA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto20a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="T" />
+
+                    <TextView
+                        android:id="@+id/tvngusto20a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BICICLETA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto21a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="U" />
+
+                    <TextView
+                        android:id="@+id/tvngusto21a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VIAJES" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto1a03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_futbol_check" />
+
+                    <TextView
+                        android:id="@+id/tvngusto1a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MÚSICA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto2a03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_juegos_sin" />
+
+                    <TextView
+                        android:id="@+id/tvngusto2a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CINE" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto3a03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_juegos_sin" />
+
+                    <TextView
+                        android:id="@+id/tvngusto3a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="JUEGOS" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkpatinesa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_patines_check"/>
+
+                    <TextView
+                        android:id="@+id/tvngusto4a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PATINAJE" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkbaloncestoa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_baloncesto_check"/>
+
+                    <TextView
+                        android:id="@+id/tvngusto5a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BASKET" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkanimalesa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_animales_check"/>
+
+                    <TextView
+                        android:id="@+id/tvngusto6a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ANIMALES" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkfotografiaa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_fotografia_check" />
+
+                    <TextView
+                        android:id="@+id/tvngusto7a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FOTOGRAFÍA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkcochesa3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_coches_check" />
+
+                    <TextView
+                        android:id="@+id/tvngusto8a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COCHES" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkfutbola3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:button="@drawable/gustos_futbol_check" />
+
+                    <TextView
+                        android:id="@+id/tvngusto9a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FUTBOL" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto10a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="H" />
+
+                    <TextView
+                        android:id="@+id/tvngusto10a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VIDEOJUEGOS" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto11a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="J" />
+
+                    <TextView
+                        android:id="@+id/tvngusto11a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MONOPATIN" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto12a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="L" />
+
+                    <TextView
+                        android:id="@+id/tvngusto12a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SENDERISMO" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto13a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="M" />
+
+                    <TextView
+                        android:id="@+id/tvngusto13a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TECNOLOGÍA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto14a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="N" />
+
+                    <TextView
+                        android:id="@+id/tvngusto14a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CÓMIC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto15a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="O" />
+
+                    <TextView
+                        android:id="@+id/tvngusto15a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="LIBROS" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/d11"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto16a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="P" />
+
+                    <TextView
+                        android:id="@+id/tvngusto16a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COMPRAS" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto17a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Q" />
+
+                    <TextView
+                        android:id="@+id/tvngusto17a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PINTURA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkgusto18a03"
+                        style="@style/txtgustosimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="R" />
+
+                    <TextView
+                        android:id="@+id/tvngusto18a03"
+                        style="@style/txtgenericos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="SALIR" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

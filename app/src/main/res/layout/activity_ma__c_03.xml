@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fulge.a00coleguis.MA_C_03">
+
+    <ImageView
+        android:id="@+id/imgtodolistoc03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/d50"
+        android:layout_marginTop="@dimen/d30"
+        android:layout_marginBottom="@dimen/d18"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/animacion_mc03" />
+
+    <TextView
+        android:id="@+id/txtcomentarioc03"
+        style="@style/txtcomentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PETICIÓN ENVIADA" />
+
+    <TextView
+        android:id="@+id/txtcomentariodescripc03"
+        style="@style/txtgenericos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu evento se publicará lo antes posible ;)" />
+
+</LinearLayout>

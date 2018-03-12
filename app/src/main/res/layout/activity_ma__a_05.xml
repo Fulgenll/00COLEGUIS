@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fondo"
+    android:orientation="vertical"
+    tools:context="com.example.fulge.a00coleguis.MA_A_05">
+
+    <ImageView
+        android:id="@+id/imgtodolistoa05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d50"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/animacion_ma05" />
+
+    <TextView
+        android:id="@+id/txtcomentarioa05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/txtcomentario"
+        android:text="¡TODO LISTO!" />
+
+    <TextView
+        android:id="@+id/txtcomentariodescripa05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/txtgenericos"
+        android:text="Ahora podrás buscar y/o publicar tu evento. Ya no estarás solo :)" />
+
+</LinearLayout>

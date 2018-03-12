@@ -1,0 +1,214 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- /////////////////////// GENERAL LA APP /////////////////////// -->
+
+    <!-- FONDO -->
+    <style name="fondo">
+        <item name="android:background">@color/AzulOscuroFondo</item>
+    </style>
+
+    <!-- FONDO CABECERA -->
+    <style name="fondocabecera">
+        <item name="android:background">@color/AzulClaroCabecera</item>
+        <item name="android:paddingHorizontal">@dimen/d9</item>
+        <item name="android:paddingVertical">@dimen/d7</item>
+    </style>
+
+    <!-- TEXTO CABECERA -->
+    <style name="txtcabecera">
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">@dimen/d37</item>
+        <item name="android:fontFamily">@font/font_bebas_neue</item>
+    </style>
+
+    <!-- TEXTO CABECERA IMG -->
+    <style name="txtcabeceraimag" parent="txtcabecera">
+        <item name="android:textSize">@dimen/d40</item>
+        <item name="android:fontFamily">@font/font_avatar</item>
+        <item name="android:paddingRight">@dimen/d5</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <!-- TEXTO GENÉRICOS -->
+    <style name="txtgenericos">
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">@dimen/d5</item>
+        <item name="android:textSize">@dimen/d17</item>
+    </style>
+
+    <!-- /////////////////////// PANTALLAS LOGIN Y REGISTRO /////////////////////// -->
+
+    <!-- EDIT TEXT 1 -->
+    <style name="txtedittext">
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:textColorHint">@color/Blanco</item>
+        <item name="android:padding">@dimen/d11</item>
+        <item name="android:layout_marginHorizontal">@dimen/d50</item>
+        <item name="android:layout_marginVertical">@dimen/d11</item>
+        <item name="android:textSize">@dimen/d21</item>
+    </style>
+
+    <!-- EDIT TEXT 2 -->
+    <style name="txtedittext2" parent="txtedittext">
+        <item name="android:padding">@dimen/d11</item>
+        <item name="android:layout_marginVertical">@dimen/d3</item>
+    </style>
+
+    <!-- CHECKBOX -->
+    <style name="txtcheckbox" parent="txtedittext">
+        <item name="android:padding">@dimen/d9</item>
+        <item name="android:layout_marginVertical">@dimen/d1</item>
+        <item name="android:textSize">@dimen/d15</item>
+    </style>
+
+    <!-- /////////////////////// PANTALLA EVENTOS /////////////////////// -->
+
+    <!-- TEXTO CABECERA IMG ZONA -->
+    <style name="txtcabeceraimgzona" parent="txtcabeceraimag">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingRight">@dimen/d11</item>
+    </style>
+
+    <!-- TEXTO CABECERA IMG PERFIL Y MASEVENTO -->
+    <style name="txtcabeceraimgperfilymasevento" parent="txtcabeceraimgzona">
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">@dimen/d3</item>
+    </style>
+
+    <!-- TEXTO CABECERA IMG ZONA -->
+    <style name="txtcabeceraimgpuntuacion" parent="txtcabeceraimag">
+        <item name="android:gravity">left</item>
+        <item name="android:paddingRight">@dimen/d1</item>
+    </style>
+
+    <!-- /////////////////////// PANTALLA PERFIL /////////////////////// -->
+
+    <!-- TEXTO CABECERA NOMBRE USUARIO -->
+    <style name="txtcabeceranombreusuario" parent="txtcabecera">
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">@dimen/d1</item>
+    </style>
+
+    <!-- TEXTO GUSTOS NOMBRE USUARIO -->
+    <style name="txtgustos" parent="txtcabeceraimag">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/d70</item>
+        <item name="android:paddingHorizontal">@dimen/d9</item>
+        <item name="android:fontFamily">@font/font_gustos_con</item>
+    </style>
+
+    <!-- TEXTO PERFIL IMG PERFIL USUARIO -->
+    <style name="txtavatarusuario" parent="txtgustosusuarioslist">
+        <item name="android:textSize">@dimen/d190</item>
+        <item name="android:layout_margin">@dimen/d1</item>
+    </style>
+
+    <!-- /////////////////////// LIST VIEW /////////////////////// -->
+
+    <!-- TEXTO PERFIL ICO LIST USUARIOS-->
+    <style name="txtavatarusuarioslist" parent="txtcabeceraimag">
+        <item name="android:textSize">@dimen/d90</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- TEXTO GUSTOS ICO LIST USUARIOS-->
+    <style name="txtgustosusuarioslist" parent="txtcabeceraimag">
+        <item name="android:textSize">@dimen/d50</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/d11</item>
+    </style>
+
+    <!-- /////////////////////// CREACION EVENTO /////////////////////// -->
+
+    <!-- TEXTO CABECERA IMG -->
+    <style name="txtfechaimg" parent="txtcabeceraimag">
+        <item name="android:textSize">@dimen/d50</item>
+        <item name="android:paddingHorizontal">@dimen/d1</item>
+        <item name="android:layout_marginLeft">@dimen/d11
+        </item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <!-- EDIT TEXT 3 (FECHA) -->
+    <style name="txtedittext3" parent="txtedittext2">
+        <item name="android:layout_marginHorizontal">@dimen/d0</item>
+    </style>
+
+    <!-- TEXT VIEW LUGAR -->
+    <style name="txtlugar" parent="txtedittext">
+        <item name="android:layout_marginVertical">@dimen/d0</item>
+        <item name="android:paddingVertical">@dimen/d0</item>
+    </style>
+
+    <!-- /////////////////////// ICONOS GUSTOS /////////////////////// -->
+
+    <!-- TEXTO GUSTOS IMG -->
+    <style name="txtgustosimg" parent="txtcabecera">
+        <item name="android:textSize">@dimen/d100</item>
+        <item name="android:fontFamily">@font/font_gustos_sin</item>
+        <item name="android:padding">@dimen/d5</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- /////////////////////// ICONOS AVATAR REGISTRO /////////////////////// -->
+
+    <!-- TEXTO AVATARES IMG -->
+    <style name="txtavataresimg" parent="txtgustosimg">
+        <item name="android:fontFamily">@font/font_avatar</item>
+        <item name="android:padding">@dimen/d5</item>
+    </style>
+
+    <!-- TEXTO AVATAR IMG -->
+    <style name="txtavatareselecimg" parent="txtavataresimg">
+        <item name="android:padding">@dimen/d5</item>
+        <item name="android:textSize">@dimen/d300</item>
+    </style>
+
+    <style name="txtcolorimg" parent="txtgustosimg">
+        <item name="android:textSize">@dimen/d75</item>
+    </style>
+
+    <!-- /////////////////////// TEXTO COMENTARIO /////////////////////// -->
+    <!-- TEXTO COMENTARIOS -->
+    <style name="txtcomentario" parent="txtcabecera">
+        <item name="android:textSize">@dimen/d75</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingHorizontal">@dimen/d11</item>
+        <item name="android:lineSpacingExtra">@dimen/d_25</item>
+    </style>
+
+    <!-- /////////////////////// ICONOS EVENTOS /////////////////////// -->
+
+    <!-- TEXTO GUSTOS IMG -->
+    <style name="txteventossimg" parent="txtgustosimg">
+        <item name="android:fontFamily">@font/font_gustos_con</item>
+    </style>
+
+    <!-- TEXTO GUSTOS IMG -->
+    <style name="txteventocabecerasimg" parent="txtcabeceraimag">
+        <item name="android:fontFamily">@font/font_gustos_con</item>
+    </style>
+
+    <!-- /////////////////////// BOTONES NORMAL Y PULSADO /////////////////////// -->
+    
+
+
+
+
+
+
+
+
+
+
+</resources>
